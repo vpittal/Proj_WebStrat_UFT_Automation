@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>The DataTable.ImportSheet operation failed. </Name>
+    <ErrorText>The DataTable.ImportSheet operation failed. 
+Cannot open the C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx file because it is already open in another application.</ErrorText>
+    <Description>&lt;BR/&gt;Cannot open the C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx file because it is already open in another application.&lt;BR/&gt;Function file: C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Login.qfl&lt;BR/&gt;Line (11): &amp;quot;dataTable.importsheet &amp;quot;C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx&amp;quot;,2,3&amp;quot;.</Description>
+    <StartTime>2018-03-28 15:18:44</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>FuncLibExecutableUnitName</ModuleName>
+          <FileName>C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Login.qfl</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>WT_Login</FunctionName>
+          <Scripts>dataTable.importsheet "C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx",2,3</Scripts>
+          <LineNo>11</LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName>WebStrat_Automation</ModuleName>
+          <FileName>WebStrat_Automation</FileName>
+          <Language>VBScript global code</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>WT_Login</Scripts>
+          <LineNo>7</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>c9a8c1fae9d74366aaf4fee4d6ddf1aa</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>WebStrat_Automation</Name>
+    <Description />
+    <StartTime>2018-03-28 15:18:44</StartTime>
+    <Duration>16</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>f9f7540bd587421a9396ceaa53a9f5b2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-03-28 15:18:44</StartTime>
+    <Duration>16</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>fd521c1e80be4613a82fdf3fea863733</IconKey>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>WebStratApplication</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.51</ToolVersion>
+    <Description />
+    <StartTime>2018-03-28 15:18:43</StartTime>
+    <Duration>17</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>6834fd66c3184afb8684fcc35e571568</IconKey>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>MS\vpittal</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8089</TotalMemory>
+      <HostName>ms.ds.uhc.com\LH7U05CG5170952</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res10</ResultName>
+    <RunStartTime>2018-03-28 15:18:43</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.51</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

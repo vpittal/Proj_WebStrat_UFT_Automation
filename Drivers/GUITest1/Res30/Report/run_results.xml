@@ -1,0 +1,6440 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "iexplore.exe",1</Name>
+    <Description>SystemUtil.Run "iexplore.exe",1</Description>
+    <StartTime>2018-03-27 11:52:59</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa1e95cbaabf4b5aa0392cb3439dea35</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxUserId ].Set</Name>
+    <Description>"ERC_WSD"</Description>
+    <StartTime>2018-03-27 11:53:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxUserId ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["ERC_WSD"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxPassword ].Set</Name>
+    <Description>"hss_PATDB"</Description>
+    <StartTime>2018-03-27 11:53:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxPassword ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["hss_PATDB"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Login ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:53:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Login ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Page ].Exist</Name>
+    <Description>"Object does not exist"</Description>
+    <StartTime>2018-03-27 11:53:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object does not exist"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>c8aad7741d5b41b6a2b55ab9d3ccb898</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 11:53:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:53:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 11:53:30</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"Dummy"</Description>
+    <StartTime>2018-03-27 11:53:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Dummy"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:53:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 11:53:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 11:53:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 11:53:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 11:53:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-27 11:54:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:54:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:54:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 11:54:43</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:55:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:55:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 11:55:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"ASC_Claim_Validation"</Description>
+    <StartTime>2018-03-27 11:55:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["ASC_Claim_Validation"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:55:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 11:55:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 11:55:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 11:55:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-27 11:55:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:55:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:55:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 11:55:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:55:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:55:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 11:55:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"apc_paystat_s"</Description>
+    <StartTime>2018-03-27 11:55:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["apc_paystat_s"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:55:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 11:55:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 11:55:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 11:55:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-27 11:56:23</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:56:23</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:56:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 11:57:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:57:25</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:57:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 11:57:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"EXTFee_AT"</Description>
+    <StartTime>2018-03-27 11:57:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["EXTFee_AT"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:57:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 11:57:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 11:57:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 11:57:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-27 11:58:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:58:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:58:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 11:58:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:59:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:59:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 11:59:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"WS.V1801.ONMPRF.1.0"</Description>
+    <StartTime>2018-03-27 11:59:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["WS.V1801.ONMPRF.1.0"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:59:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 11:59:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 11:59:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 11:59:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-27 11:59:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:59:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:59:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 11:59:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:59:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:59:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 11:59:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"FSUC210_Validation"</Description>
+    <StartTime>2018-03-27 11:59:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["FSUC210_Validation"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 11:59:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 11:59:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 11:59:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 11:59:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-27 12:00:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:00:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:00:25</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 12:01:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:01:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:01:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 12:01:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"APCPricer1"</Description>
+    <StartTime>2018-03-27 12:01:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["APCPricer1"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:01:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 12:01:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 12:01:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 12:01:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-27 12:01:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:01:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:01:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 12:02:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:02:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:02:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 12:02:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"FSUC310_Validation"</Description>
+    <StartTime>2018-03-27 12:02:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["FSUC310_Validation"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:02:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 12:02:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 12:02:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 12:02:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-27 12:02:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:02:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:02:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 12:03:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:03:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:03:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 12:03:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"WS.ASC.17Q3R2.2.0"</Description>
+    <StartTime>2018-03-27 12:03:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["WS.ASC.17Q3R2.2.0"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:03:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 12:03:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 12:03:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 12:03:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-27 12:04:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:04:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:04:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 12:04:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:04:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:04:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 12:04:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"FS_Validation"</Description>
+    <StartTime>2018-03-27 12:04:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["FS_Validation"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:04:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 12:04:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 12:04:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 12:04:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-27 12:04:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:04:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:04:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 12:05:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:05:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:05:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 12:05:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"IP_Claim_Validation"</Description>
+    <StartTime>2018-03-27 12:05:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["IP_Claim_Validation"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:05:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 12:05:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 12:05:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 12:05:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:05:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:05:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 12:05:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:05:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:05:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 12:05:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"Medica_INPT_981"</Description>
+    <StartTime>2018-03-27 12:05:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Medica_INPT_981"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:05:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 12:05:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 12:05:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 12:05:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:06:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:06:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 12:06:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:06:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:06:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 12:06:30</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"Medica_INPT_790"</Description>
+    <StartTime>2018-03-27 12:06:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Medica_INPT_790"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:06:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 12:06:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 12:06:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 12:06:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:06:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:06:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 12:07:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:07:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:07:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 12:07:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"Medica_INPT_775"</Description>
+    <StartTime>2018-03-27 12:07:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Medica_INPT_775"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:07:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 12:07:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 12:07:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 12:07:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:07:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:07:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 12:07:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:07:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:07:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 12:07:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"Medica_INPT_460"</Description>
+    <StartTime>2018-03-27 12:07:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Medica_INPT_460"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:07:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 12:07:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 12:07:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 12:07:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:08:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:08:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 12:08:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:08:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:08:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 12:08:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"Medica_INPT_390"</Description>
+    <StartTime>2018-03-27 12:08:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Medica_INPT_390"]]></OperationData>
+      </TestObject>
+      <IconKey>0b85b32693744cc493b16e506b8520c9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:08:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-27 12:08:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-27 12:08:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-27 12:08:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>98b0a0d181704dd9ae50e8aefb74ffa5</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:08:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:08:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>caaa652fb27645d0a4a303806b09658a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-27 12:09:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:09:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>07a5dbe072e2408aae26e50080a76deb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Clear ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:09:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebTable</Type>
+            <Name><![CDATA[[ NPI/Facility ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Clear ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-27 12:09:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>9353a878b6fb481197fa25f800d6e6c2</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Web.Strat ].Sync</Name>
+    <Description />
+    <StartTime>2018-03-27 12:09:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>c8aad7741d5b41b6a2b55ab9d3ccb898</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Logout ].Click</Name>
+    <Description />
+    <StartTime>2018-03-27 12:09:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Logout ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e842120ebf074dc787fa40d41f3e657b</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Web.Strat Login ].Close</Name>
+    <Description />
+    <StartTime>2018-03-27 12:09:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+      </TestObject>
+      <IconKey>c0578f158bac4e99a2280a42e06f2017</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>WebStrat_Automation</Name>
+    <Description />
+    <StartTime>2018-03-27 11:52:56</StartTime>
+    <Duration>1002</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>2e9a2ab9788e4893ba0b2adbf294c1cf</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-03-27 11:52:56</StartTime>
+    <Duration>1002</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>eb24b528fca442418504455c283a418f</IconKey>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.51</ToolVersion>
+    <Description />
+    <StartTime>2018-03-27 11:52:51</StartTime>
+    <Duration>1007</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>1fbb31c5e65c4fa5a7b3d2142ffa556e</IconKey>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>MS\vpittal</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8089</TotalMemory>
+      <HostName>ms.ds.uhc.com\LH7U05CG5170952</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res30</ResultName>
+    <RunStartTime>2018-03-27 11:52:51</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.51</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

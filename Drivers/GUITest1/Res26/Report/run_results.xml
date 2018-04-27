@@ -1,0 +1,1703 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebEdit ]</Name>
+    <Description>Object's physical description:&lt;br&gt;Visible = -1&lt;br&gt;Type = text&lt;br&gt;Name = WebEdit&lt;br&gt;Mercury Class = WebEdit&lt;br&gt;htmltag = INPUT&lt;br&gt;Html Id = TextBoxBillType&lt;br&gt;Height = 22&lt;br&gt;</Description>
+    <StartTime>2018-03-26 19:10:44</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ WebEdit ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object's physical description:<br>Visible = -1<br>Type = text<br>Name = WebEdit<br>Mercury Class = WebEdit<br>htmltag = INPUT<br>Html Id = TextBoxBillType<br>Height = 22<br>]]></OperationData>
+      </TestObject>
+      <IconKey>3e41ccdc32664d7eb94d75a5d185a99f</IconKey>
+      <NodeType>Description</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>[ WebEdit ]</Name>
+    <Description>Cannot identify the object "[ WebEdit ]" (of class WebEdit).
+Verify that this object's properties match an object currently displayed in your application.</Description>
+    <StartTime>2018-03-26 19:10:44</StartTime>
+    <Duration>598</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ WebEdit ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WebEdit ]" (of class WebEdit).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "iexplore.exe",1</Name>
+    <Description>SystemUtil.Run "iexplore.exe",1</Description>
+    <StartTime>2018-03-26 19:20:45</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>33303e9366be4c10a5c97516443a7ed0</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxUserId ].Set</Name>
+    <Description>"ERC_WSD"</Description>
+    <StartTime>2018-03-26 19:21:01</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxUserId ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["ERC_WSD"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxPassword ].Set</Name>
+    <Description>"hss_PATDB"</Description>
+    <StartTime>2018-03-26 19:21:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxPassword ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["hss_PATDB"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Login ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 19:21:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Login ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>e64b5f0f7ccc4822a69733d519648b50</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Page ].Exist</Name>
+    <Description>"Object does not exist"</Description>
+    <StartTime>2018-03-26 19:21:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object does not exist"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d37bb283763a47caafa6141d6971e825</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ txtDropDownPatType ].Set</Name>
+    <Description>"02"</Description>
+    <StartTime>2018-03-26 19:21:23</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ txtDropDownPatType ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["02"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ txtNPI ].Set</Name>
+    <Description>""</Description>
+    <StartTime>2018-03-26 19:21:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ txtNPI ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA[""]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ txtTaxonomy ].Set</Name>
+    <Description>""</Description>
+    <StartTime>2018-03-26 19:21:25</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ txtTaxonomy ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA[""]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ DropDownFacilityID ].Set</Name>
+    <Description>"111"</Description>
+    <StartTime>2018-03-26 19:21:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ DropDownFacilityID ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["111"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ txtDropDownPayerID ].Set</Name>
+    <Description>"04301392"</Description>
+    <StartTime>2018-03-26 19:21:43</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ txtDropDownPayerID ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["04301392"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxPtIDMedRec ].Set</Name>
+    <Description>"18Q1R2Test3"</Description>
+    <StartTime>2018-03-26 19:21:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxPtIDMedRec ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["18Q1R2Test3"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxAdmitDate ].Set</Name>
+    <Description>"01/01/2018"</Description>
+    <StartTime>2018-03-26 19:21:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxAdmitDate ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["01/01/2018"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxDischDate ].Set</Name>
+    <Description>"01/01/2018"</Description>
+    <StartTime>2018-03-26 19:21:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxDischDate ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["01/01/2018"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxSex ].Set</Name>
+    <Description>"M"</Description>
+    <StartTime>2018-03-26 19:21:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxSex ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["M"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxBirth ].Set</Name>
+    <Description>"01/01/1977"</Description>
+    <StartTime>2018-03-26 19:21:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxBirth ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["01/01/1977"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ txtDropDownDStat ].Set</Name>
+    <Description>"01"</Description>
+    <StartTime>2018-03-26 19:21:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ txtDropDownDStat ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["01"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebEdit ].Set</Name>
+    <Description>"0131"</Description>
+    <StartTime>2018-03-26 19:21:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ WebEdit ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["0131"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxCoder ].Set</Name>
+    <Description>"18Q3R2"</Description>
+    <StartTime>2018-03-26 19:21:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ DemographicsIFrame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxCoder ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["18Q3R2"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Summary"</Description>
+    <StartTime>2018-03-26 19:21:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Summary"]]></OperationData>
+      </TestObject>
+      <IconKey>7db806a46d2844799cb92dd0c48bbc68</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 19:22:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>7db806a46d2844799cb92dd0c48bbc68</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dx0 ].Set</Name>
+    <Description>"B699"</Description>
+    <StartTime>2018-03-26 19:22:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ InPatIFrameL ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ dx0 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["B699"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Onset0 ].Set</Name>
+    <Description>""</Description>
+    <StartTime>2018-03-26 19:22:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ InPatIFrameL ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ Onset0 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA[""]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ rev0 ].Set</Name>
+    <Description>"0100"</Description>
+    <StartTime>2018-03-26 19:22:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameBottom ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ rev0 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["0100"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ hcpcs0 ].Set</Name>
+    <Description>"C9014"</Description>
+    <StartTime>2018-03-26 19:22:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameBottom ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ hcpcs0 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["C9014"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Units0 ].Set</Name>
+    <Description>"1"</Description>
+    <StartTime>2018-03-26 19:22:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameBottom ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ Units0 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["1"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ date0 ].Set</Name>
+    <Description>"01/01/2018"</Description>
+    <StartTime>2018-03-26 19:22:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameBottom ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ date0 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["01/01/2018"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ charges0 ].Set</Name>
+    <Description>"500"</Description>
+    <StartTime>2018-03-26 19:22:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameBottom ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ charges0 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["500"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ rev1 ].Set</Name>
+    <Description>"0100"</Description>
+    <StartTime>2018-03-26 19:22:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameBottom ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ rev1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["0100"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ hcpcs1 ].Set</Name>
+    <Description>"10060"</Description>
+    <StartTime>2018-03-26 19:22:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameBottom ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ hcpcs1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["10060"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Units1 ].Set</Name>
+    <Description>"1"</Description>
+    <StartTime>2018-03-26 19:22:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameBottom ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ Units1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["1"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ date1 ].Set</Name>
+    <Description>"01/01/2018"</Description>
+    <StartTime>2018-03-26 19:22:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameBottom ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ date1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["01/01/2018"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ charges1 ].Set</Name>
+    <Description>"500"</Description>
+    <StartTime>2018-03-26 19:22:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameBottom ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ charges1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["500"]]></OperationData>
+      </TestObject>
+      <IconKey>d82d83e5a53c4204af57c80b255cce49</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Functions ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 19:22:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Functions ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>912a500b9d9844cab5c017f6d4f45d3a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Group and Price (Ctrl+G).Click</Name>
+    <Description />
+    <StartTime>2018-03-26 19:22:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Group and Price (Ctrl+G)]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Group and Price (Ctrl+G)]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>912a500b9d9844cab5c017f6d4f45d3a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-26 19:22:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>32ec325eb50847129d23204463a5d4cd</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 19:22:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>912a500b9d9844cab5c017f6d4f45d3a</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Web.Strat</Name>
+    <Description>Page</Description>
+    <StartTime>2018-03-26 19:22:12</StartTime>
+    <Duration>39</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>d37bb283763a47caafa6141d6971e825</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Web.Strat</Name>
+    <Description>Browser</Description>
+    <StartTime>2018-03-26 19:22:12</StartTime>
+    <Duration>39</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>45eef93c9c2d48b5848fbe8c497ff552</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>The "New (Alt+N)" Link object was not found in the Object Repository.</Name>
+    <ErrorText>The "New (Alt+N)" Link object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;New (Alt+N)&amp;quot; Link object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (297): &amp;quot;Browser(&amp;quot;Web.Strat&amp;quot;).Page(&amp;quot;Web.Strat&amp;quot;).Link(&amp;quot;New (Alt+N)&amp;quot;).Click&amp;quot;. </Description>
+    <StartTime>2018-03-26 19:22:52</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>WebStrat_Automation</ModuleName>
+          <FileName>WebStrat_Automation</FileName>
+          <Language>WebStrat_Automation</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("Web.Strat").Page("Web.Strat").Link("New (Alt+N)").Click</Scripts>
+          <LineNo>297</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The &quot;New (Alt+N)&quot; Link object was not found in the Object Repository.<BR/>Check the Object Repository to confirm that the object exists or to find the correct name for the object.<BR/>Line (297): &quot;Browser(&quot;Web.Strat&quot;).Page(&quot;Web.Strat&quot;).Link(&quot;New (Alt+N)&quot;).Click&quot;. ]]></OperationData>
+      </TestObject>
+      <IconKey>3e41ccdc32664d7eb94d75a5d185a99f</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\3cdc514c-ed03-4a8a-be07-8f54918df6ad.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Web.Strat</Name>
+    <Description>Browser</Description>
+    <StartTime>2018-03-26 19:22:51</StartTime>
+    <Duration>7</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>45eef93c9c2d48b5848fbe8c497ff552</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1999c13d-1786-47ed-8923-1fac7b333e05.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>The "New (Alt+N)" Link object was not found in the Object Repository.</Name>
+    <ErrorText>The "New (Alt+N)" Link object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;New (Alt+N)&amp;quot; Link object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (297): &amp;quot;Browser(&amp;quot;Web.Strat&amp;quot;).Page(&amp;quot;Web.Strat&amp;quot;).Link(&amp;quot;New (Alt+N)&amp;quot;).Click&amp;quot;. </Description>
+    <StartTime>2018-03-26 19:22:58</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>WebStrat_Automation</ModuleName>
+          <FileName>WebStrat_Automation</FileName>
+          <Language>WebStrat_Automation</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("Web.Strat").Page("Web.Strat").Link("New (Alt+N)").Click</Scripts>
+          <LineNo>297</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The &quot;New (Alt+N)&quot; Link object was not found in the Object Repository.<BR/>Check the Object Repository to confirm that the object exists or to find the correct name for the object.<BR/>Line (297): &quot;Browser(&quot;Web.Strat&quot;).Page(&quot;Web.Strat&quot;).Link(&quot;New (Alt+N)&quot;).Click&quot;. ]]></OperationData>
+      </TestObject>
+      <IconKey>3e41ccdc32664d7eb94d75a5d185a99f</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\8c371d27-a03a-45ff-b35f-51d0b4a03a61.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Web.Strat</Name>
+    <Description>Browser</Description>
+    <StartTime>2018-03-26 19:22:58</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>45eef93c9c2d48b5848fbe8c497ff552</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\02720350-e769-4d0f-b0db-d9c04685f90f.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>The "New (Alt+N)" Link object was not found in the Object Repository.</Name>
+    <ErrorText>The "New (Alt+N)" Link object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;New (Alt+N)&amp;quot; Link object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (297): &amp;quot;Browser(&amp;quot;Web.Strat&amp;quot;).Page(&amp;quot;Web.Strat&amp;quot;).Link(&amp;quot;New (Alt+N)&amp;quot;).Click&amp;quot;. </Description>
+    <StartTime>2018-03-26 19:23:00</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>WebStrat_Automation</ModuleName>
+          <FileName>WebStrat_Automation</FileName>
+          <Language>WebStrat_Automation</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("Web.Strat").Page("Web.Strat").Link("New (Alt+N)").Click</Scripts>
+          <LineNo>297</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The &quot;New (Alt+N)&quot; Link object was not found in the Object Repository.<BR/>Check the Object Repository to confirm that the object exists or to find the correct name for the object.<BR/>Line (297): &quot;Browser(&quot;Web.Strat&quot;).Page(&quot;Web.Strat&quot;).Link(&quot;New (Alt+N)&quot;).Click&quot;. ]]></OperationData>
+      </TestObject>
+      <IconKey>3e41ccdc32664d7eb94d75a5d185a99f</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\47ae8906-80f6-4972-b02e-94e30644eed8.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Web.Strat</Name>
+    <Description>Browser</Description>
+    <StartTime>2018-03-26 19:23:00</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>45eef93c9c2d48b5848fbe8c497ff552</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\47363930-9bff-4208-95e6-2b5318600298.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>The "New (Alt+N)" Link object was not found in the Object Repository.</Name>
+    <ErrorText>The "New (Alt+N)" Link object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;New (Alt+N)&amp;quot; Link object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (297): &amp;quot;Browser(&amp;quot;Web.Strat&amp;quot;).Page(&amp;quot;Web.Strat&amp;quot;).Link(&amp;quot;New (Alt+N)&amp;quot;).Click&amp;quot;. </Description>
+    <StartTime>2018-03-26 19:23:03</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>WebStrat_Automation</ModuleName>
+          <FileName>WebStrat_Automation</FileName>
+          <Language>WebStrat_Automation</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("Web.Strat").Page("Web.Strat").Link("New (Alt+N)").Click</Scripts>
+          <LineNo>297</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The &quot;New (Alt+N)&quot; Link object was not found in the Object Repository.<BR/>Check the Object Repository to confirm that the object exists or to find the correct name for the object.<BR/>Line (297): &quot;Browser(&quot;Web.Strat&quot;).Page(&quot;Web.Strat&quot;).Link(&quot;New (Alt+N)&quot;).Click&quot;. ]]></OperationData>
+      </TestObject>
+      <IconKey>3e41ccdc32664d7eb94d75a5d185a99f</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d0432791-8a91-4127-9ef0-95410fd04841.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Web.Strat</Name>
+    <Description>Browser</Description>
+    <StartTime>2018-03-26 19:23:03</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>45eef93c9c2d48b5848fbe8c497ff552</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\2f0a6a56-872c-4349-95bf-a93106883809.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>The "New (Alt+N)" Link object was not found in the Object Repository.</Name>
+    <ErrorText>The "New (Alt+N)" Link object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;New (Alt+N)&amp;quot; Link object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (297): &amp;quot;Browser(&amp;quot;Web.Strat&amp;quot;).Page(&amp;quot;Web.Strat&amp;quot;).Link(&amp;quot;New (Alt+N)&amp;quot;).Click&amp;quot;. </Description>
+    <StartTime>2018-03-26 19:23:05</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>WebStrat_Automation</ModuleName>
+          <FileName>WebStrat_Automation</FileName>
+          <Language>WebStrat_Automation</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("Web.Strat").Page("Web.Strat").Link("New (Alt+N)").Click</Scripts>
+          <LineNo>297</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The &quot;New (Alt+N)&quot; Link object was not found in the Object Repository.<BR/>Check the Object Repository to confirm that the object exists or to find the correct name for the object.<BR/>Line (297): &quot;Browser(&quot;Web.Strat&quot;).Page(&quot;Web.Strat&quot;).Link(&quot;New (Alt+N)&quot;).Click&quot;. ]]></OperationData>
+      </TestObject>
+      <IconKey>3e41ccdc32664d7eb94d75a5d185a99f</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\53a809e7-0d29-489e-8a63-07b2dbebcf9a.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Web.Strat</Name>
+    <Description>Browser</Description>
+    <StartTime>2018-03-26 19:23:05</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>45eef93c9c2d48b5848fbe8c497ff552</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d2fc1e9c-a3e7-42e3-9513-58d2dd773232.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>The "New (Alt+N)" Link object was not found in the Object Repository.</Name>
+    <ErrorText>The "New (Alt+N)" Link object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;New (Alt+N)&amp;quot; Link object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (297): &amp;quot;Browser(&amp;quot;Web.Strat&amp;quot;).Page(&amp;quot;Web.Strat&amp;quot;).Link(&amp;quot;New (Alt+N)&amp;quot;).Click&amp;quot;. </Description>
+    <StartTime>2018-03-26 19:23:07</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>WebStrat_Automation</ModuleName>
+          <FileName>WebStrat_Automation</FileName>
+          <Language>WebStrat_Automation</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("Web.Strat").Page("Web.Strat").Link("New (Alt+N)").Click</Scripts>
+          <LineNo>297</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The &quot;New (Alt+N)&quot; Link object was not found in the Object Repository.<BR/>Check the Object Repository to confirm that the object exists or to find the correct name for the object.<BR/>Line (297): &quot;Browser(&quot;Web.Strat&quot;).Page(&quot;Web.Strat&quot;).Link(&quot;New (Alt+N)&quot;).Click&quot;. ]]></OperationData>
+      </TestObject>
+      <IconKey>3e41ccdc32664d7eb94d75a5d185a99f</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a16a42e9-4186-43b8-95e3-0187bae66704.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Web.Strat</Name>
+    <Description>Browser</Description>
+    <StartTime>2018-03-26 19:23:06</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Web.Strat]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Browser]]></OperationData>
+      </TestObject>
+      <IconKey>45eef93c9c2d48b5848fbe8c497ff552</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\0984538d-a877-4f92-921a-95dbee643add.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>WebStrat_Automation</Name>
+    <Description />
+    <StartTime>2018-03-26 19:20:42</StartTime>
+    <Duration>147</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>93306a5238c74affbdd7d823fc024403</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-03-26 19:20:42</StartTime>
+    <Duration>147</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>0904d512e6f84ebd9398348b30b99a89</IconKey>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.51</ToolVersion>
+    <Description />
+    <StartTime>2018-03-26 19:20:41</StartTime>
+    <Duration>148</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>1d5c915b2ea849f6a6b3eca9cc7b81bb</IconKey>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>MS\vpittal</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8089</TotalMemory>
+      <HostName>ms.ds.uhc.com\LH7U05CG5170952</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res26</ResultName>
+    <RunStartTime>2018-03-26 19:20:41</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.51</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

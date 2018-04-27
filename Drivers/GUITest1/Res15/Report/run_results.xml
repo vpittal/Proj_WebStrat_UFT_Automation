@@ -1,0 +1,515 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "iexplore.exe",1</Name>
+    <Description>SystemUtil.Run "iexplore.exe",1</Description>
+    <StartTime>2018-03-26 12:48:41</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>79a4bd77f52a4455ade0c864936a980c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxUserId ].Set</Name>
+    <Description>"ERC_WSD"</Description>
+    <StartTime>2018-03-26 12:48:42</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxUserId ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["ERC_WSD"]]></OperationData>
+      </TestObject>
+      <IconKey>966bdad3cedf472b8fecab8ff0e16760</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxPassword ].Set</Name>
+    <Description>"hss_PATDB"</Description>
+    <StartTime>2018-03-26 12:48:42</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxPassword ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["hss_PATDB"]]></OperationData>
+      </TestObject>
+      <IconKey>966bdad3cedf472b8fecab8ff0e16760</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Login ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 12:48:42</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Login ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>d2fa83bc370348208f860d759aabf150</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Page ].Exist</Name>
+    <Description>"Object does not exist"</Description>
+    <StartTime>2018-03-26 12:48:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object does not exist"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>54c49cb25a1641b987d09c047acfa95c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-26 12:48:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>2e990a1537de46df88f7f0873985060f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 12:48:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>2e990a1537de46df88f7f0873985060f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-26 12:49:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>2f3076ea728a4e6f8e667cd0215fc783</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Step">
+<Data>
+    <Name />
+    <Description>Object's physical description:&lt;br&gt;opentitle = Web.Strat Login&lt;br&gt;Mercury Class = Browser&lt;br&gt;</Description>
+    <StartTime>2018-03-26 12:49:21</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ WebEdit ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object's physical description:<br>opentitle = Web.Strat Login<br>Mercury Class = Browser<br>]]></OperationData>
+      </TestObject>
+      <IconKey>a47b03631c714a9e809b44e0b590c39d</IconKey>
+      <NodeType>Parent description</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>[ WebEdit ]</Name>
+    <Description>Cannot find the "[ WebEdit ]" object's parent "[ Browser ]" (class Browser).
+Verify that parent properties match an object currently displayed in your application.</Description>
+    <StartTime>2018-03-26 12:49:21</StartTime>
+    <Duration>0</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ WebEdit ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot find the "[ WebEdit ]" object's parent "[ Browser ]" (class Browser).
+Verify that parent properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>966bdad3cedf472b8fecab8ff0e16760</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Cannot find the "[ WebEdit ]" object's parent "[ Browser ]" (class Browser).</Name>
+    <ErrorText>Cannot find the "[ WebEdit ]" object's parent "[ Browser ]" (class Browser).
+Verify that parent properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot find the &amp;quot;[ WebEdit ]&amp;quot; object's parent &amp;quot;[ Browser ]&amp;quot; (class Browser).&lt;BR/&gt;Verify that parent properties match an object currently displayed in your application.&lt;BR/&gt;Function file: C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Searchclaim.qfl&lt;BR/&gt;Line (47): &amp;quot;Browser(&amp;quot;opentitle:=Web.Strat Login&amp;quot;).page(&amp;quot;title:=Web.Strat&amp;quot;).Frame(&amp;quot;name:=IFrameSearch&amp;quot;,&amp;quot;htmltag:=IFRAME&amp;quot;).WebEdit(&amp;quot;name:=tb_medrecnum&amp;quot;,&amp;quot;htmltag:=INPUT&amp;quot;,&amp;quot;type:=text&amp;quot;).Set MedicalRecordNumber&amp;quot;.</Description>
+    <StartTime>2018-03-26 12:49:21</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>FuncLibExecutableUnitName</ModuleName>
+          <FileName>C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Searchclaim.qfl</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>WT_Searchclaim</FunctionName>
+          <Scripts>Browser("opentitle:=Web.Strat Login").page("title:=Web.Strat").Frame("name:=IFrameSearch","htmltag:=IFRAME").WebEdit("name:=tb_medrecnum","htmltag:=INPUT","type:=text").Set MedicalRecordNumber</Scripts>
+          <LineNo>47</LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript global code</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>WT_Searchclaim</Scripts>
+          <LineNo>4</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot find the &quot;[ WebEdit ]&quot; object's parent &quot;[ Browser ]&quot; (class Browser).<BR/>Verify that parent properties match an object currently displayed in your application.<BR/>Function file: C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Searchclaim.qfl<BR/>Line (47): &quot;Browser(&quot;opentitle:=Web.Strat Login&quot;).page(&quot;title:=Web.Strat&quot;).Frame(&quot;name:=IFrameSearch&quot;,&quot;htmltag:=IFRAME&quot;).WebEdit(&quot;name:=tb_medrecnum&quot;,&quot;htmltag:=INPUT&quot;,&quot;type:=text&quot;).Set MedicalRecordNumber&quot;.]]></OperationData>
+      </TestObject>
+      <IconKey>a47b03631c714a9e809b44e0b590c39d</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Step">
+<Data>
+    <Name />
+    <Description>Object's physical description:&lt;br&gt;opentitle = Web.Strat Login&lt;br&gt;Mercury Class = Browser&lt;br&gt;</Description>
+    <StartTime>2018-03-26 12:50:05</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ WebEdit ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object's physical description:<br>opentitle = Web.Strat Login<br>Mercury Class = Browser<br>]]></OperationData>
+      </TestObject>
+      <IconKey>a47b03631c714a9e809b44e0b590c39d</IconKey>
+      <NodeType>Parent description</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>[ WebEdit ]</Name>
+    <Description>Cannot find the "[ WebEdit ]" object's parent "[ Browser ]" (class Browser).
+Verify that parent properties match an object currently displayed in your application.</Description>
+    <StartTime>2018-03-26 12:50:05</StartTime>
+    <Duration>0</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ WebEdit ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot find the "[ WebEdit ]" object's parent "[ Browser ]" (class Browser).
+Verify that parent properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>966bdad3cedf472b8fecab8ff0e16760</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Cannot find the "[ WebEdit ]" object's parent "[ Browser ]" (class Browser).</Name>
+    <ErrorText>Cannot find the "[ WebEdit ]" object's parent "[ Browser ]" (class Browser).
+Verify that parent properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot find the &amp;quot;[ WebEdit ]&amp;quot; object's parent &amp;quot;[ Browser ]&amp;quot; (class Browser).&lt;BR/&gt;Verify that parent properties match an object currently displayed in your application.&lt;BR/&gt;Function file: C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Searchclaim.qfl&lt;BR/&gt;Line (47): &amp;quot;Browser(&amp;quot;opentitle:=Web.Strat Login&amp;quot;).page(&amp;quot;title:=Web.Strat&amp;quot;).Frame(&amp;quot;name:=IFrameSearch&amp;quot;,&amp;quot;htmltag:=IFRAME&amp;quot;).WebEdit(&amp;quot;name:=tb_medrecnum&amp;quot;,&amp;quot;htmltag:=INPUT&amp;quot;,&amp;quot;type:=text&amp;quot;).Set MedicalRecordNumber&amp;quot;.</Description>
+    <StartTime>2018-03-26 12:50:05</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>FuncLibExecutableUnitName</ModuleName>
+          <FileName>C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Searchclaim.qfl</FileName>
+          <Language>FuncLibExecutableUnitName</Language>
+          <FunctionName>WT_Searchclaim</FunctionName>
+          <Scripts>Browser("opentitle:=Web.Strat Login").page("title:=Web.Strat").Frame("name:=IFrameSearch","htmltag:=IFRAME").WebEdit("name:=tb_medrecnum","htmltag:=INPUT","type:=text").Set MedicalRecordNumber</Scripts>
+          <LineNo>47</LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript global code</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>WT_Searchclaim</Scripts>
+          <LineNo>4</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot find the &quot;[ WebEdit ]&quot; object's parent &quot;[ Browser ]&quot; (class Browser).<BR/>Verify that parent properties match an object currently displayed in your application.<BR/>Function file: C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Searchclaim.qfl<BR/>Line (47): &quot;Browser(&quot;opentitle:=Web.Strat Login&quot;).page(&quot;title:=Web.Strat&quot;).Frame(&quot;name:=IFrameSearch&quot;,&quot;htmltag:=IFRAME&quot;).WebEdit(&quot;name:=tb_medrecnum&quot;,&quot;htmltag:=INPUT&quot;,&quot;type:=text&quot;).Set MedicalRecordNumber&quot;.]]></OperationData>
+      </TestObject>
+      <IconKey>a47b03631c714a9e809b44e0b590c39d</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2018-03-26 12:48:37</StartTime>
+    <Duration>114</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>d5e6d3bb44ea4207b3b8758e627f2a01</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-03-26 12:48:37</StartTime>
+    <Duration>114</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>9270c92091ae4689ab4e22edce9b887f</IconKey>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.51</ToolVersion>
+    <Description />
+    <StartTime>2018-03-26 12:48:36</StartTime>
+    <Duration>115</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>d0abe5c22ca54cd6a5b3fb100dde951c</IconKey>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>MS\vpittal</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8089</TotalMemory>
+      <HostName>ms.ds.uhc.com\LH7U05CG5170952</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res15</ResultName>
+    <RunStartTime>2018-03-26 12:48:36</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.51</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

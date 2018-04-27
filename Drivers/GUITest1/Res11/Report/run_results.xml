@@ -1,0 +1,1077 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "iexplore.exe",1</Name>
+    <Description>SystemUtil.Run "iexplore.exe",1</Description>
+    <StartTime>2018-03-26 11:22:58</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>66672d52f64f4a8588257c208b53aea3</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxUserId ].Set</Name>
+    <Description>"ERC_WSD"</Description>
+    <StartTime>2018-03-26 11:23:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxUserId ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["ERC_WSD"]]></OperationData>
+      </TestObject>
+      <IconKey>9cd1a9af53f64fee83e764315b33a9e9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxPassword ].Set</Name>
+    <Description>"hss_PATDB"</Description>
+    <StartTime>2018-03-26 11:23:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxPassword ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["hss_PATDB"]]></OperationData>
+      </TestObject>
+      <IconKey>9cd1a9af53f64fee83e764315b33a9e9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Login ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 11:23:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Login ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>28357001687a4bbeb5826464e47bd33e</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Page ].Exist</Name>
+    <Description>"Object does not exist"</Description>
+    <StartTime>2018-03-26 11:23:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object does not exist"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f0680d2d102e4b738db5e0c1a6548f1c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-26 11:23:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 11:23:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-26 11:23:25</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>a4ef89ad653a46c0aba6243d9d72077c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ tb_medrecnum ].Set</Name>
+    <Description>"Dummy"</Description>
+    <StartTime>2018-03-26 11:23:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ tb_medrecnum ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Dummy"]]></OperationData>
+      </TestObject>
+      <IconKey>9cd1a9af53f64fee83e764315b33a9e9</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Search ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 11:23:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>28357001687a4bbeb5826464e47bd33e</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>2, 9</Description>
+    <StartTime>2018-03-26 11:23:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[2, 9]]></OperationData>
+      </TestObject>
+      <IconKey>d4f89ad35740470fbf15f4d48d7f12b8</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ dg_search ].GetCellData</Name>
+    <Description>7</Description>
+    <StartTime>2018-03-26 11:23:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ dg_search ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[7]]></OperationData>
+      </TestObject>
+      <IconKey>d4f89ad35740470fbf15f4d48d7f12b8</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfGrid ].Object</Name>
+    <Description />
+    <StartTime>2018-03-26 11:23:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ Frame ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ WbfGrid ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Object</Operation>
+      </TestObject>
+      <IconKey>d4f89ad35740470fbf15f4d48d7f12b8</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Table1 ].GetCellData</Name>
+    <Description>3, 8</Description>
+    <StartTime>2018-03-26 11:23:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ OutPatIFrameFoot ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfGrid</Type>
+            <Name><![CDATA[[ Table1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetCellData</Operation>
+        <OperationData><![CDATA[3, 8]]></OperationData>
+      </TestObject>
+      <IconKey>d4f89ad35740470fbf15f4d48d7f12b8</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ File ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 11:23:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ File ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>398870a8957f4cde82edd86d8005af24</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Save (Ctrl+S) ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 11:23:59</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[[ Save (Ctrl+S) ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>398870a8957f4cde82edd86d8005af24</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:24:41</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:25:43</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:26:06</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:26:29</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:26:51</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:27:15</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:27:49</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:28:12</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:28:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:29:20</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:29:43</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WbfTabStrip ]</Name>
+    <ErrorText>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;x = 2&lt;br&gt;Width = 717&lt;br&gt;Mercury Class = WbfTabStrip&lt;br&gt;Html Tag = TabStrip&lt;br&gt;Html Id = TabStrip1&lt;br&gt;</Description>
+    <StartTime>2018-03-26 11:30:06</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>170</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ WbfTabStrip ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot identify the object "[ WbfTabStrip ]" (of class WbfTabStrip).
+Verify that this object's properties match an object currently displayed in your application.]]></OperationData>
+      </TestObject>
+      <IconKey>edda4bfa26924e0c8ca12d68ef3022bd</IconKey>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2018-03-26 11:22:55</StartTime>
+    <Duration>433</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>add1a51e8fc9415bb217b547f366b781</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-03-26 11:22:55</StartTime>
+    <Duration>433</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>d5e6f4e8b35a4d55811c5b91d319cd03</IconKey>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.51</ToolVersion>
+    <Description />
+    <StartTime>2018-03-26 11:22:54</StartTime>
+    <Duration>434</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>9436c837dbfe49b9a55eb37858ad617e</IconKey>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>MS\vpittal</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8089</TotalMemory>
+      <HostName>ms.ds.uhc.com\LH7U05CG5170952</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res11</ResultName>
+    <RunStartTime>2018-03-26 11:22:54</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.51</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

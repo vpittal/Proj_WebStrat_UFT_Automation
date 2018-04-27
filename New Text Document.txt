@@ -1,0 +1,53 @@
+Keyword Driven Frame work
+
+-in Excel sheet
+3 columns
+Module ID Module Name Module Exe
+Mod1      User         Y
+Mod2      Admin        N
+Mod3      Reports      N
+
+go to test case sheet 
+
+TestCaseID  TestCaseName  TestCaseExe  ModuleID(ModuleID is freihn Key)
+TC001        Login            Y        Mod1
+TC002        OpenOrder        Y        MOd1
+TC003        UpdateOrder      Y        Mod1
+TC004        Insert Order     N        Mod1
+TC005        User Creation    Y        Mod2
+
+-------------------------------------------------
+TestStep sheet 
+-----------------------------------
+
+TestStep      TestStepName     FunctionName   Keyword TestCaseID InputData TestResults
+
+TC001_Ts1 Login to Application
+TC001_Ts2 Close Application
+
+TC001_Ts1 Login to Application
+TC001_Ts2 Open Order
+
+
+3 Excel sheet prepared
+----------------------------------------------------------------------------------------
+preparing Driver script
+----------------------------------------------------
+
+========================================================================
+process Steps:
+=============================================
+1>Create Folder Structure to store and organize Automation Resources.
+2>Create Automation Resources and store into corresponding folders.
+3>Create Organizer file (Excel file)
+(It provides instructions to Driver script,using Organizer we can control the test execution process)
+4>Create Driver script (UFT Test)
+(It executes tests one by one and expert test result based on Organizer instructions)
+5>Create Initialization script(.vbs file)
+(It launches UFT tool,calls Driver Script and it closes UFT tool)
+-------------------------------------------------------------------
+
+ 
+
+
+

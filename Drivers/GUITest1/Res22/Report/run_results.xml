@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>The DataTable.ImportSheet operation failed. </Name>
+    <ErrorText>The DataTable.ImportSheet operation failed. 
+Cannot open the C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx file because it is already open in another application.</ErrorText>
+    <Description>&lt;BR/&gt;Cannot open the C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx file because it is already open in another application.&lt;BR/&gt;Function file: C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Login.qfl&lt;BR/&gt;Line (11): &amp;quot;dataTable.importsheet &amp;quot;C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx&amp;quot;,2,3&amp;quot;.</Description>
+    <StartTime>2018-03-26 18:58:27</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>FuncLibExecutableUnitName</ModuleName>
+          <FileName>C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Login.qfl</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>WT_Login</FunctionName>
+          <Scripts>dataTable.importsheet "C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx",2,3</Scripts>
+          <LineNo>11</LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName>WebStrat_Automation</ModuleName>
+          <FileName>WebStrat_Automation</FileName>
+          <Language>VBScript global code</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>WT_Login</Scripts>
+          <LineNo>8</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>5d59eab80d6d47bb96d95f969ba6ab15</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "iexplore.exe",1</Name>
+    <Description>SystemUtil.Run "iexplore.exe",1</Description>
+    <StartTime>2018-03-26 18:58:46</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>48c834000c5a49d0a8eccc4d6bc529de</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxUserId ].Set</Name>
+    <Description>"ERC_WSD"</Description>
+    <StartTime>2018-03-26 18:59:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxUserId ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["ERC_WSD"]]></OperationData>
+      </TestObject>
+      <IconKey>4e6e84265efc4ffb80646e5e5a5c4019</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxPassword ].Set</Name>
+    <Description>"hss_PATDB"</Description>
+    <StartTime>2018-03-26 18:59:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxPassword ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["hss_PATDB"]]></OperationData>
+      </TestObject>
+      <IconKey>4e6e84265efc4ffb80646e5e5a5c4019</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Login ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 18:59:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Login ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>cb894381317243959939992a396c5bbe</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Page ].Exist</Name>
+    <Description>"Object does not exist"</Description>
+    <StartTime>2018-03-26 18:59:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object does not exist"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>47ce65e186744cef84bf0be4994be140</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>The retrieve DataTable.Value operation failed. The specified sheet index value: "6" does not exist in the Data Table.</Name>
+    <ErrorText>The retrieve DataTable.Value operation failed. The specified sheet index value: "6" does not exist in the Data Table.</ErrorText>
+    <Description>The retrieve DataTable.Value operation failed. The specified sheet index value: &amp;quot;6&amp;quot; does not exist in the Data Table.&lt;BR/&gt;Line (69): &amp;quot;L2Date = DataTable(25,6)&amp;quot;. </Description>
+    <StartTime>2018-03-26 18:59:22</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>WebStrat_Automation</ModuleName>
+          <FileName>WebStrat_Automation</FileName>
+          <Language>L2Date = DataTable(25,6)</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>L2Date = DataTable(25,6)</Scripts>
+          <LineNo>69</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>5d59eab80d6d47bb96d95f969ba6ab15</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>WebStrat_Automation</Name>
+    <Description />
+    <StartTime>2018-03-26 18:58:27</StartTime>
+    <Duration>64</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>7f39c82c129e411b845978238927ec81</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-03-26 18:58:27</StartTime>
+    <Duration>64</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>d7819af6ef8540d7838e24da848a26cd</IconKey>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.51</ToolVersion>
+    <Description />
+    <StartTime>2018-03-26 18:58:26</StartTime>
+    <Duration>65</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>9ad3cc6f210c404cb04262a940d1ee20</IconKey>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>MS\vpittal</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8089</TotalMemory>
+      <HostName>ms.ds.uhc.com\LH7U05CG5170952</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res22</ResultName>
+    <RunStartTime>2018-03-26 18:58:26</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.51</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Select</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-03-24 23:00:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+      </TestObject>
+      <IconKey>3aad6cbbd8b44a83818d438a8a74110e</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TabStrip1 ].Click</Name>
+    <Description />
+    <StartTime>2018-03-24 23:00:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WbfTabStrip</Type>
+            <Name><![CDATA[[ TabStrip1 ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>3aad6cbbd8b44a83818d438a8a74110e</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ ddl_fld ].Select</Name>
+    <Description>"Medical Record Number"</Description>
+    <StartTime>2018-03-24 23:00:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Frame</Type>
+            <Name><![CDATA[[ IFrameSearch ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[[ ddl_fld ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Medical Record Number"]]></OperationData>
+      </TestObject>
+      <IconKey>15fad3690dd24dec98d94ad283ac3779</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>The DataTable.ImportSheet operation failed. The specified sheet index value does not exist in the Data Table.</Name>
+    <ErrorText>The DataTable.ImportSheet operation failed. The specified sheet index value does not exist in the Data Table.</ErrorText>
+    <Description>&lt;BR/&gt;Line (26): &amp;quot;dataTable.importsheet &amp;quot;C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WebStratSearchData.xlsx&amp;quot;,1,5&amp;quot;.</Description>
+    <StartTime>2018-03-24 23:00:54</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>dataTable.importsheet "C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WebStratSearchData.xlsx",1,5</Scripts>
+          <LineNo>26</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>8779f712ff1149c2b3e37358c6b3c027</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>The DataTable.ImportSheet operation failed. The specified sheet index value does not exist in the Data Table.</Name>
+    <ErrorText>The DataTable.ImportSheet operation failed. The specified sheet index value does not exist in the Data Table.</ErrorText>
+    <Description>&lt;BR/&gt;Line (26): &amp;quot;dataTable.importsheet &amp;quot;C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WebStratSearchData.xlsx&amp;quot;,1,5&amp;quot;.</Description>
+    <StartTime>2018-03-24 23:01:01</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>dataTable.importsheet "C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WebStratSearchData.xlsx",1,5</Scripts>
+          <LineNo>26</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>8779f712ff1149c2b3e37358c6b3c027</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2018-03-24 23:00:48</StartTime>
+    <Duration>15</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>30c17439ee9e46fbb5da2b52c1dc1605</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.51</ToolVersion>
+    <Description />
+    <StartTime>2018-03-24 23:00:47</StartTime>
+    <Duration>16</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>8a52a258d5b74fcfb1b05d62710d033f</IconKey>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>MS\vpittal</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8089</TotalMemory>
+      <HostName>ms.ds.uhc.com\LH7U05CG5170952</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res7</ResultName>
+    <RunStartTime>2018-03-24 23:00:47</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.51</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

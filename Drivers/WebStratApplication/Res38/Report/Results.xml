@@ -1,0 +1,1475 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED qcserver CDATA #IMPLIED qcproject CDATA #IMPLIED SolManSolutionId CDATA #IMPLIED SolManProjectId CDATA #IMPLIED SolManTestPlanId CDATA #IMPLIED SolManTestPackageId CDATA #IMPLIED SolManUserInfoData CDATA #IMPLIED  >
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,ConfName?,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Doc*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC|BPTWrapperTest|Flow|Group|Action) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT ConfName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step*,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*, Summary,ActionMaintenanceSummary*, NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,DataMapping?, Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED isCountable (False|True) "False" >
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary*) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef*) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" AddedProperty (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,TimeTick* ,(Step|HtmlStep|Doc)*, DataMapping?, NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,TimeTick*,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT TimeTick ( #PCDATA ) >
+
+<!ELEMENT DataMapping ( DataMappedItem* )>
+<!ELEMENT DataMappedItem EMPTY >
+<!ATTLIST DataMappedItem dsName CDATA #REQUIRED >
+<!ATTLIST DataMappedItem rowId CDATA #REQUIRED >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?,ExtendedInfo? )>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED UserNote CDATA #IMPLIED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+<!ATTLIST NodeArgs Source CDATA #IMPLIED SourceLine CDATA #IMPLIED StepFlowItemKey CDATA #IMPLIED >
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT ExtendedInfo ( StepData ) >
+
+<!ATTLIST ExtendedInfo StepType CDATA #REQUIRED>
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="India Standard Time">
+<General productName="HP Unified Functional Testing" productVer="12.51" os="Windows 7" host="LH7U05CG5170952"><DocLocation><![CDATA[C:\Proj_WebStrat_UFT_Automation\Drivers\WebStratApplication]]></DocLocation></General>
+<Doc rID="T1"   productName= "HP Unified Functional Testing"  >
+<DName><![CDATA[WebStratApplication]]></DName>
+<Res><![CDATA[Res38]]></Res>
+<DT rID="T2">
+<NodeArgs eType="Table" icon="2" nRep="4" filter="False" >
+<Disp><![CDATA[Run-Time Data Table]]></Disp>
+<BtmPane vType="Table" >
+<Path><![CDATA[Default.xls]]></Path>
+</BtmPane>
+</NodeArgs>
+</DT>
+<DIter rID="T3" iterID="1" >
+<Action rID="T4">
+<AName><![CDATA[WebStrat_Automation]]></AName>
+<Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[SystemUtil]]></Obj>
+<Details plainTxt="False" ><![CDATA[SystemUtil]]></Details>
+<Time><![CDATA[4/11/2018 - 9:54:45]]></Time>
+<TimeTick>1523420685</TimeTick>
+<Step rID="T6">
+<Obj plainTxt="False" ><![CDATA[Run "iexplore.exe",1]]></Obj>
+<Details plainTxt="False" ><![CDATA[Run "iexplore.exe",1]]></Details>
+<Time><![CDATA[4/11/2018 - 9:54:45]]></Time>
+<TimeTick>1523420685</TimeTick>
+<NodeArgs eType="Replay" icon="5" nRep="11" status="Passed" >
+<Disp><![CDATA[Run "iexplore.exe",1]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Replay" icon="5" nRep="10" status="Passed" >
+<Disp><![CDATA[SystemUtil]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxUserId ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["ERC_WSD"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:02]]></Time>
+<TimeTick>1523420702</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="14" >
+<Disp><![CDATA[[ TextBoxUserId ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxPassword ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["hss_PATDB"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:02]]></Time>
+<TimeTick>1523420702</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="17" >
+<Disp><![CDATA[[ TextBoxPassword ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[[ Login ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:02]]></Time>
+<TimeTick>1523420702</TimeTick>
+<NodeArgs eType="Replay" icon="7" nRep="20" >
+<Disp><![CDATA[[ Login ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownPatType ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["02"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:21]]></Time>
+<TimeTick>1523420721</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="24" Source="WebStrat_Automation" SourceLine="83" >
+<Disp><![CDATA[[ txtDropDownPatType ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[[ txtNPI ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA[""]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:22]]></Time>
+<TimeTick>1523420722</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="27" Source="WebStrat_Automation" SourceLine="88" >
+<Disp><![CDATA[[ txtNPI ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[[ txtTaxonomy ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA[""]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:23]]></Time>
+<TimeTick>1523420723</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="30" Source="WebStrat_Automation" SourceLine="89" >
+<Disp><![CDATA[[ txtTaxonomy ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[[ DropDownFacilityID ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["010001"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:27]]></Time>
+<TimeTick>1523420727</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="33" Source="WebStrat_Automation" SourceLine="91" >
+<Disp><![CDATA[[ DropDownFacilityID ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownPayerID ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["09"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:27]]></Time>
+<TimeTick>1523420727</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="36" Source="WebStrat_Automation" SourceLine="93" >
+<Disp><![CDATA[[ txtDropDownPayerID ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxPtIDMedRec ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["WS.V1804.HOPDP.1.0"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:28]]></Time>
+<TimeTick>1523420728</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="39" Source="WebStrat_Automation" SourceLine="95" >
+<Disp><![CDATA[[ TextBoxPtIDMedRec ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxAdmitDate ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/1/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:33]]></Time>
+<TimeTick>1523420733</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="42" Source="WebStrat_Automation" SourceLine="97" >
+<Disp><![CDATA[[ TextBoxAdmitDate ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxDischDate ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/1/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:33]]></Time>
+<TimeTick>1523420733</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="45" Source="WebStrat_Automation" SourceLine="98" >
+<Disp><![CDATA[[ TextBoxDischDate ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxSex ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["M"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:35]]></Time>
+<TimeTick>1523420735</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="48" Source="WebStrat_Automation" SourceLine="101" >
+<Disp><![CDATA[[ TextBoxSex ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxBirth ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["01/01/1977"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:35]]></Time>
+<TimeTick>1523420735</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="51" Source="WebStrat_Automation" SourceLine="103" >
+<Disp><![CDATA[[ TextBoxBirth ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownDStat ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["01"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:35]]></Time>
+<TimeTick>1523420735</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="54" Source="WebStrat_Automation" SourceLine="105" >
+<Disp><![CDATA[[ txtDropDownDStat ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[[ WebEdit ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0131"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:35]]></Time>
+<TimeTick>1523420735</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="57" Source="WebStrat_Automation" SourceLine="107" >
+<Disp><![CDATA[[ WebEdit ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxCoder ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["18Q2R1"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:36]]></Time>
+<TimeTick>1523420736</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="60" Source="WebStrat_Automation" SourceLine="110" >
+<Disp><![CDATA[[ TextBoxCoder ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[[ TabStrip1 ].Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["Summary"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:42]]></Time>
+<TimeTick>1523420742</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="63" Source="WebStrat_Automation" SourceLine="116" >
+<Disp><![CDATA[[ TabStrip1 ].Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[[ TabStrip1 ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:42]]></Time>
+<TimeTick>1523420742</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="66" Source="WebStrat_Automation" SourceLine="117" >
+<Disp><![CDATA[[ TabStrip1 ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[[ dx0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["B699"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:47]]></Time>
+<TimeTick>1523420747</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="69" Source="WebStrat_Automation" SourceLine="145" >
+<Disp><![CDATA[[ dx0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T26">
+<Obj plainTxt="False" ><![CDATA[[ Onset0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA[""]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:47]]></Time>
+<TimeTick>1523420747</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="72" Source="WebStrat_Automation" SourceLine="146" >
+<Disp><![CDATA[[ Onset0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[[ rev0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0360"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:47]]></Time>
+<TimeTick>1523420747</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="75" Source="WebStrat_Automation" SourceLine="149" >
+<Disp><![CDATA[[ rev0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA[[ hcpcs0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0100T"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:48]]></Time>
+<TimeTick>1523420748</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="78" Source="WebStrat_Automation" SourceLine="151" >
+<Disp><![CDATA[[ hcpcs0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[[ Units0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["1"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:50]]></Time>
+<TimeTick>1523420750</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="81" Source="WebStrat_Automation" SourceLine="154" >
+<Disp><![CDATA[[ Units0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[[ date0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/01/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:50]]></Time>
+<TimeTick>1523420750</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="84" Source="WebStrat_Automation" SourceLine="156" >
+<Disp><![CDATA[[ date0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T31">
+<Obj plainTxt="False" ><![CDATA[[ charges0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["100000"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:51]]></Time>
+<TimeTick>1523420751</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="87" Source="WebStrat_Automation" SourceLine="158" >
+<Disp><![CDATA[[ charges0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T32">
+<Obj plainTxt="False" ><![CDATA[[ rev1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0360"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:52]]></Time>
+<TimeTick>1523420752</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="90" Source="WebStrat_Automation" SourceLine="161" >
+<Disp><![CDATA[[ rev1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA[[ hcpcs1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["C1840"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:52]]></Time>
+<TimeTick>1523420752</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="93" Source="WebStrat_Automation" SourceLine="163" >
+<Disp><![CDATA[[ hcpcs1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T34">
+<Obj plainTxt="False" ><![CDATA[[ Units1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["1"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:54]]></Time>
+<TimeTick>1523420754</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="96" Source="WebStrat_Automation" SourceLine="166" >
+<Disp><![CDATA[[ Units1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA[[ date1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/01/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:54]]></Time>
+<TimeTick>1523420754</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="99" Source="WebStrat_Automation" SourceLine="168" >
+<Disp><![CDATA[[ date1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T36">
+<Obj plainTxt="False" ><![CDATA[[ charges1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["100000"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:55]]></Time>
+<TimeTick>1523420755</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="102" Source="WebStrat_Automation" SourceLine="170" >
+<Disp><![CDATA[[ charges1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T37">
+<Obj plainTxt="False" ><![CDATA[[ Functions ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:58]]></Time>
+<TimeTick>1523420758</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="105" Source="WebStrat_Automation" SourceLine="178" >
+<Disp><![CDATA[[ Functions ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T38">
+<Obj plainTxt="False" ><![CDATA[Web.Strat]]></Obj>
+<Details plainTxt="False" ><![CDATA[Browser]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:58]]></Time>
+<TimeTick>1523420758</TimeTick>
+<Step rID="T39">
+<Obj plainTxt="False" ><![CDATA[Web.Strat]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:58]]></Time>
+<TimeTick>1523420758</TimeTick>
+<Step rID="T40">
+<Obj plainTxt="False" ><![CDATA[Group and Price (Ctrl+G).Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:55:58]]></Time>
+<TimeTick>1523420758</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="110" Source="WebStrat_Automation" SourceLine="183" >
+<Disp><![CDATA[Group and Price (Ctrl+G).Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T41">
+<Obj plainTxt="False" ><![CDATA[[ Table1 ].GetCellData]]></Obj>
+<Details plainTxt="False" ><![CDATA[3, 8]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:21]]></Time>
+<TimeTick>1523420781</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="125" Source="WebStrat_Automation" SourceLine="229" >
+<Disp><![CDATA[[ Table1 ].GetCellData]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T42">
+<Obj plainTxt="False" ><![CDATA[[ File ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:21]]></Time>
+<TimeTick>1523420781</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="128" Source="WebStrat_Automation" SourceLine="296" >
+<Disp><![CDATA[[ File ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T43">
+<Obj plainTxt="False" ><![CDATA[New (Alt+N).Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:21]]></Time>
+<TimeTick>1523420781</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="131" Source="WebStrat_Automation" SourceLine="297" >
+<Disp><![CDATA[New (Alt+N).Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="11" nRep="109" Source="WebStrat_Automation" SourceLine="183" >
+<Disp><![CDATA[Web.Strat]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T44">
+<Obj plainTxt="False" ><![CDATA[VBScript]]></Obj>
+<Details plainTxt="False" ><![CDATA[Dialog]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:24]]></Time>
+<TimeTick>1523420784</TimeTick>
+<Step rID="T45">
+<Obj plainTxt="False" ><![CDATA[Yes.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:24]]></Time>
+<TimeTick>1523420784</TimeTick>
+<NodeArgs eType="Replay" icon="14" nRep="135" Source="WebStrat_Automation" SourceLine="300" >
+<Disp><![CDATA[Yes.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T46">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownPatType ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["02"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:33]]></Time>
+<TimeTick>1523420793</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="138" Source="WebStrat_Automation" SourceLine="83" >
+<Disp><![CDATA[[ txtDropDownPatType ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T47">
+<Obj plainTxt="False" ><![CDATA[[ txtNPI ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["1164403861"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:33]]></Time>
+<TimeTick>1523420793</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="141" Source="WebStrat_Automation" SourceLine="88" >
+<Disp><![CDATA[[ txtNPI ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T48">
+<Obj plainTxt="False" ><![CDATA[[ txtTaxonomy ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["282N00000X"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:35]]></Time>
+<TimeTick>1523420795</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="144" Source="WebStrat_Automation" SourceLine="89" >
+<Disp><![CDATA[[ txtTaxonomy ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T49">
+<Obj plainTxt="False" ><![CDATA[[ DropDownFacilityID ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["010001"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:38]]></Time>
+<TimeTick>1523420798</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="147" Source="WebStrat_Automation" SourceLine="91" >
+<Disp><![CDATA[[ DropDownFacilityID ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T50">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownPayerID ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["09"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:39]]></Time>
+<TimeTick>1523420799</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="150" Source="WebStrat_Automation" SourceLine="93" >
+<Disp><![CDATA[[ txtDropDownPayerID ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T51">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxPtIDMedRec ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["WS.V1804.HOPDP.2.0"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:40]]></Time>
+<TimeTick>1523420800</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="153" Source="WebStrat_Automation" SourceLine="95" >
+<Disp><![CDATA[[ TextBoxPtIDMedRec ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T52">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxAdmitDate ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/1/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:44]]></Time>
+<TimeTick>1523420804</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="156" Source="WebStrat_Automation" SourceLine="97" >
+<Disp><![CDATA[[ TextBoxAdmitDate ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T53">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxDischDate ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/1/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:45]]></Time>
+<TimeTick>1523420805</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="159" Source="WebStrat_Automation" SourceLine="98" >
+<Disp><![CDATA[[ TextBoxDischDate ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T54">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxSex ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["M"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:46]]></Time>
+<TimeTick>1523420806</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="162" Source="WebStrat_Automation" SourceLine="101" >
+<Disp><![CDATA[[ TextBoxSex ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T55">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxBirth ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["01/01/1977"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:46]]></Time>
+<TimeTick>1523420806</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="165" Source="WebStrat_Automation" SourceLine="103" >
+<Disp><![CDATA[[ TextBoxBirth ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T56">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownDStat ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["01"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:46]]></Time>
+<TimeTick>1523420806</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="168" Source="WebStrat_Automation" SourceLine="105" >
+<Disp><![CDATA[[ txtDropDownDStat ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T57">
+<Obj plainTxt="False" ><![CDATA[[ WebEdit ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0131"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:46]]></Time>
+<TimeTick>1523420806</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="171" Source="WebStrat_Automation" SourceLine="107" >
+<Disp><![CDATA[[ WebEdit ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T58">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxCoder ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["18Q2R1"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:47]]></Time>
+<TimeTick>1523420807</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="174" Source="WebStrat_Automation" SourceLine="110" >
+<Disp><![CDATA[[ TextBoxCoder ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T59">
+<Obj plainTxt="False" ><![CDATA[[ TabStrip1 ].Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["Summary"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:52]]></Time>
+<TimeTick>1523420812</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="177" Source="WebStrat_Automation" SourceLine="116" >
+<Disp><![CDATA[[ TabStrip1 ].Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T60">
+<Obj plainTxt="False" ><![CDATA[[ TabStrip1 ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:53]]></Time>
+<TimeTick>1523420813</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="180" Source="WebStrat_Automation" SourceLine="117" >
+<Disp><![CDATA[[ TabStrip1 ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T61">
+<Obj plainTxt="False" ><![CDATA[[ dx0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["B699"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:58]]></Time>
+<TimeTick>1523420818</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="183" Source="WebStrat_Automation" SourceLine="145" >
+<Disp><![CDATA[[ dx0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T62">
+<Obj plainTxt="False" ><![CDATA[[ Onset0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA[""]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:58]]></Time>
+<TimeTick>1523420818</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="186" Source="WebStrat_Automation" SourceLine="146" >
+<Disp><![CDATA[[ Onset0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T63">
+<Obj plainTxt="False" ><![CDATA[[ rev0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0360"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:58]]></Time>
+<TimeTick>1523420818</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="189" Source="WebStrat_Automation" SourceLine="149" >
+<Disp><![CDATA[[ rev0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T64">
+<Obj plainTxt="False" ><![CDATA[[ hcpcs0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0100T"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:56:59]]></Time>
+<TimeTick>1523420819</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="192" Source="WebStrat_Automation" SourceLine="151" >
+<Disp><![CDATA[[ hcpcs0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T65">
+<Obj plainTxt="False" ><![CDATA[[ Units0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["1"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:01]]></Time>
+<TimeTick>1523420821</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="195" Source="WebStrat_Automation" SourceLine="154" >
+<Disp><![CDATA[[ Units0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T66">
+<Obj plainTxt="False" ><![CDATA[[ date0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/01/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:02]]></Time>
+<TimeTick>1523420822</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="198" Source="WebStrat_Automation" SourceLine="156" >
+<Disp><![CDATA[[ date0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T67">
+<Obj plainTxt="False" ><![CDATA[[ charges0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["100000"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:03]]></Time>
+<TimeTick>1523420823</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="201" Source="WebStrat_Automation" SourceLine="158" >
+<Disp><![CDATA[[ charges0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T68">
+<Obj plainTxt="False" ><![CDATA[[ rev1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0360"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:03]]></Time>
+<TimeTick>1523420823</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="204" Source="WebStrat_Automation" SourceLine="161" >
+<Disp><![CDATA[[ rev1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T69">
+<Obj plainTxt="False" ><![CDATA[[ hcpcs1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["C1840"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:04]]></Time>
+<TimeTick>1523420824</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="207" Source="WebStrat_Automation" SourceLine="163" >
+<Disp><![CDATA[[ hcpcs1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T70">
+<Obj plainTxt="False" ><![CDATA[[ Units1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["1"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:06]]></Time>
+<TimeTick>1523420826</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="210" Source="WebStrat_Automation" SourceLine="166" >
+<Disp><![CDATA[[ Units1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T71">
+<Obj plainTxt="False" ><![CDATA[[ date1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/01/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:06]]></Time>
+<TimeTick>1523420826</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="213" Source="WebStrat_Automation" SourceLine="168" >
+<Disp><![CDATA[[ date1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T72">
+<Obj plainTxt="False" ><![CDATA[[ charges1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["100000"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:07]]></Time>
+<TimeTick>1523420827</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="216" Source="WebStrat_Automation" SourceLine="170" >
+<Disp><![CDATA[[ charges1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T73">
+<Obj plainTxt="False" ><![CDATA[[ Functions ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:10]]></Time>
+<TimeTick>1523420830</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="219" Source="WebStrat_Automation" SourceLine="178" >
+<Disp><![CDATA[[ Functions ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="13" nRep="134" Source="WebStrat_Automation" SourceLine="300" >
+<Disp><![CDATA[VBScript]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T74">
+<Obj plainTxt="False" ><![CDATA[Web.Strat]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:10]]></Time>
+<TimeTick>1523420830</TimeTick>
+<Step rID="T75">
+<Obj plainTxt="False" ><![CDATA[Group and Price (Ctrl+G).Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:10]]></Time>
+<TimeTick>1523420830</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="223" Source="WebStrat_Automation" SourceLine="183" >
+<Disp><![CDATA[Group and Price (Ctrl+G).Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T76">
+<Obj plainTxt="False" ><![CDATA[[ Table1 ].GetCellData]]></Obj>
+<Details plainTxt="False" ><![CDATA[3, 8]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:32]]></Time>
+<TimeTick>1523420852</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="238" Source="WebStrat_Automation" SourceLine="229" >
+<Disp><![CDATA[[ Table1 ].GetCellData]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T77">
+<Obj plainTxt="False" ><![CDATA[[ File ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:33]]></Time>
+<TimeTick>1523420853</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="241" Source="WebStrat_Automation" SourceLine="296" >
+<Disp><![CDATA[[ File ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T78">
+<Obj plainTxt="False" ><![CDATA[New (Alt+N).Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:33]]></Time>
+<TimeTick>1523420853</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="244" Source="WebStrat_Automation" SourceLine="297" >
+<Disp><![CDATA[New (Alt+N).Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="11" nRep="222" Source="WebStrat_Automation" SourceLine="183" >
+<Disp><![CDATA[Web.Strat]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T79">
+<Obj plainTxt="False" ><![CDATA[VBScript]]></Obj>
+<Details plainTxt="False" ><![CDATA[Dialog]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:36]]></Time>
+<TimeTick>1523420856</TimeTick>
+<Step rID="T80">
+<Obj plainTxt="False" ><![CDATA[Yes.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:36]]></Time>
+<TimeTick>1523420856</TimeTick>
+<NodeArgs eType="Replay" icon="14" nRep="248" Source="WebStrat_Automation" SourceLine="300" >
+<Disp><![CDATA[Yes.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T81">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownPatType ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["02"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:45]]></Time>
+<TimeTick>1523420865</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="251" Source="WebStrat_Automation" SourceLine="83" >
+<Disp><![CDATA[[ txtDropDownPatType ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T82">
+<Obj plainTxt="False" ><![CDATA[[ txtNPI ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["1164403861"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:47]]></Time>
+<TimeTick>1523420867</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="254" Source="WebStrat_Automation" SourceLine="88" >
+<Disp><![CDATA[[ txtNPI ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T83">
+<Obj plainTxt="False" ><![CDATA[[ txtTaxonomy ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["282N00000X"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:49]]></Time>
+<TimeTick>1523420869</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="257" Source="WebStrat_Automation" SourceLine="89" >
+<Disp><![CDATA[[ txtTaxonomy ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T84">
+<Obj plainTxt="False" ><![CDATA[[ DropDownFacilityID ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["010001"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:53]]></Time>
+<TimeTick>1523420873</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="260" Source="WebStrat_Automation" SourceLine="91" >
+<Disp><![CDATA[[ DropDownFacilityID ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T85">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownPayerID ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["09"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:54]]></Time>
+<TimeTick>1523420874</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="263" Source="WebStrat_Automation" SourceLine="93" >
+<Disp><![CDATA[[ txtDropDownPayerID ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T86">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxPtIDMedRec ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["WS.V1804.HOPDP.3.0"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:54]]></Time>
+<TimeTick>1523420874</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="266" Source="WebStrat_Automation" SourceLine="95" >
+<Disp><![CDATA[[ TextBoxPtIDMedRec ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T87">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxAdmitDate ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/1/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:57:59]]></Time>
+<TimeTick>1523420879</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="269" Source="WebStrat_Automation" SourceLine="97" >
+<Disp><![CDATA[[ TextBoxAdmitDate ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T88">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxDischDate ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/1/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:00]]></Time>
+<TimeTick>1523420880</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="272" Source="WebStrat_Automation" SourceLine="98" >
+<Disp><![CDATA[[ TextBoxDischDate ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T89">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxSex ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["M"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:01]]></Time>
+<TimeTick>1523420881</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="275" Source="WebStrat_Automation" SourceLine="101" >
+<Disp><![CDATA[[ TextBoxSex ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T90">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxBirth ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["01/01/1977"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:01]]></Time>
+<TimeTick>1523420881</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="278" Source="WebStrat_Automation" SourceLine="103" >
+<Disp><![CDATA[[ TextBoxBirth ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T91">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownDStat ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["01"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:01]]></Time>
+<TimeTick>1523420881</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="281" Source="WebStrat_Automation" SourceLine="105" >
+<Disp><![CDATA[[ txtDropDownDStat ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T92">
+<Obj plainTxt="False" ><![CDATA[[ WebEdit ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0131"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:01]]></Time>
+<TimeTick>1523420881</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="284" Source="WebStrat_Automation" SourceLine="107" >
+<Disp><![CDATA[[ WebEdit ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T93">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxCoder ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["18Q2R1"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:02]]></Time>
+<TimeTick>1523420882</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="287" Source="WebStrat_Automation" SourceLine="110" >
+<Disp><![CDATA[[ TextBoxCoder ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T94">
+<Obj plainTxt="False" ><![CDATA[[ TabStrip1 ].Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["Summary"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:07]]></Time>
+<TimeTick>1523420887</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="290" Source="WebStrat_Automation" SourceLine="116" >
+<Disp><![CDATA[[ TabStrip1 ].Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T95">
+<Obj plainTxt="False" ><![CDATA[[ TabStrip1 ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:08]]></Time>
+<TimeTick>1523420888</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="293" Source="WebStrat_Automation" SourceLine="117" >
+<Disp><![CDATA[[ TabStrip1 ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T96">
+<Obj plainTxt="False" ><![CDATA[[ dx0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["B699"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:13]]></Time>
+<TimeTick>1523420893</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="296" Source="WebStrat_Automation" SourceLine="145" >
+<Disp><![CDATA[[ dx0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T97">
+<Obj plainTxt="False" ><![CDATA[[ Onset0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA[""]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:13]]></Time>
+<TimeTick>1523420893</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="299" Source="WebStrat_Automation" SourceLine="146" >
+<Disp><![CDATA[[ Onset0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T98">
+<Obj plainTxt="False" ><![CDATA[[ rev0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0510"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:14]]></Time>
+<TimeTick>1523420894</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="302" Source="WebStrat_Automation" SourceLine="149" >
+<Disp><![CDATA[[ rev0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T99">
+<Obj plainTxt="False" ><![CDATA[[ hcpcs0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["90371"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:14]]></Time>
+<TimeTick>1523420894</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="305" Source="WebStrat_Automation" SourceLine="151" >
+<Disp><![CDATA[[ hcpcs0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T100">
+<Obj plainTxt="False" ><![CDATA[[ Units0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["1"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:16]]></Time>
+<TimeTick>1523420896</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="308" Source="WebStrat_Automation" SourceLine="154" >
+<Disp><![CDATA[[ Units0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T101">
+<Obj plainTxt="False" ><![CDATA[[ date0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/01/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:17]]></Time>
+<TimeTick>1523420897</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="311" Source="WebStrat_Automation" SourceLine="156" >
+<Disp><![CDATA[[ date0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T102">
+<Obj plainTxt="False" ><![CDATA[[ charges0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["200"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:17]]></Time>
+<TimeTick>1523420897</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="314" Source="WebStrat_Automation" SourceLine="158" >
+<Disp><![CDATA[[ charges0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T103">
+<Obj plainTxt="False" ><![CDATA[[ rev1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0510"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:18]]></Time>
+<TimeTick>1523420898</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="317" Source="WebStrat_Automation" SourceLine="161" >
+<Disp><![CDATA[[ rev1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T104">
+<Obj plainTxt="False" ><![CDATA[[ hcpcs1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["G0463"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:19]]></Time>
+<TimeTick>1523420899</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="320" Source="WebStrat_Automation" SourceLine="163" >
+<Disp><![CDATA[[ hcpcs1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T105">
+<Obj plainTxt="False" ><![CDATA[[ Units1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["1"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:21]]></Time>
+<TimeTick>1523420901</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="323" Source="WebStrat_Automation" SourceLine="166" >
+<Disp><![CDATA[[ Units1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T106">
+<Obj plainTxt="False" ><![CDATA[[ date1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/01/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:21]]></Time>
+<TimeTick>1523420901</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="326" Source="WebStrat_Automation" SourceLine="168" >
+<Disp><![CDATA[[ date1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T107">
+<Obj plainTxt="False" ><![CDATA[[ charges1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["200"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:22]]></Time>
+<TimeTick>1523420902</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="329" Source="WebStrat_Automation" SourceLine="170" >
+<Disp><![CDATA[[ charges1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T108">
+<Obj plainTxt="False" ><![CDATA[[ Functions ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:25]]></Time>
+<TimeTick>1523420905</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="332" Source="WebStrat_Automation" SourceLine="178" >
+<Disp><![CDATA[[ Functions ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="13" nRep="247" Source="WebStrat_Automation" SourceLine="300" >
+<Disp><![CDATA[VBScript]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T109">
+<Obj plainTxt="False" ><![CDATA[Web.Strat]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:25]]></Time>
+<TimeTick>1523420905</TimeTick>
+<Step rID="T110">
+<Obj plainTxt="False" ><![CDATA[Group and Price (Ctrl+G).Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:25]]></Time>
+<TimeTick>1523420905</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="336" Source="WebStrat_Automation" SourceLine="183" >
+<Disp><![CDATA[Group and Price (Ctrl+G).Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T111">
+<Obj plainTxt="False" ><![CDATA[[ Table1 ].GetCellData]]></Obj>
+<Details plainTxt="False" ><![CDATA[3, 8]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:47]]></Time>
+<TimeTick>1523420927</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="351" Source="WebStrat_Automation" SourceLine="229" >
+<Disp><![CDATA[[ Table1 ].GetCellData]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T112">
+<Obj plainTxt="False" ><![CDATA[[ File ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:48]]></Time>
+<TimeTick>1523420928</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="354" Source="WebStrat_Automation" SourceLine="296" >
+<Disp><![CDATA[[ File ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T113">
+<Obj plainTxt="False" ><![CDATA[New (Alt+N).Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:48]]></Time>
+<TimeTick>1523420928</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="357" Source="WebStrat_Automation" SourceLine="297" >
+<Disp><![CDATA[New (Alt+N).Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="11" nRep="335" Source="WebStrat_Automation" SourceLine="183" >
+<Disp><![CDATA[Web.Strat]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T114">
+<Obj plainTxt="False" ><![CDATA[VBScript]]></Obj>
+<Details plainTxt="False" ><![CDATA[Dialog]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:51]]></Time>
+<TimeTick>1523420931</TimeTick>
+<Step rID="T115">
+<Obj plainTxt="False" ><![CDATA[Yes.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:58:51]]></Time>
+<TimeTick>1523420931</TimeTick>
+<NodeArgs eType="Replay" icon="14" nRep="361" Source="WebStrat_Automation" SourceLine="300" >
+<Disp><![CDATA[Yes.Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T116">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownPatType ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["02"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:00]]></Time>
+<TimeTick>1523420940</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="364" Source="WebStrat_Automation" SourceLine="83" >
+<Disp><![CDATA[[ txtDropDownPatType ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T117">
+<Obj plainTxt="False" ><![CDATA[[ txtNPI ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["1154314789"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:03]]></Time>
+<TimeTick>1523420943</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="367" Source="WebStrat_Automation" SourceLine="88" >
+<Disp><![CDATA[[ txtNPI ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T118">
+<Obj plainTxt="False" ><![CDATA[[ txtTaxonomy ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["282N00000X"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:04]]></Time>
+<TimeTick>1523420944</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="370" Source="WebStrat_Automation" SourceLine="89" >
+<Disp><![CDATA[[ txtTaxonomy ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T119">
+<Obj plainTxt="False" ><![CDATA[[ DropDownFacilityID ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["170122"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:08]]></Time>
+<TimeTick>1523420948</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="373" Source="WebStrat_Automation" SourceLine="91" >
+<Disp><![CDATA[[ DropDownFacilityID ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T120">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownPayerID ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["09"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:09]]></Time>
+<TimeTick>1523420949</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="376" Source="WebStrat_Automation" SourceLine="93" >
+<Disp><![CDATA[[ txtDropDownPayerID ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T121">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxPtIDMedRec ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["WS.V1804.ONMPRF.4.0"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:09]]></Time>
+<TimeTick>1523420949</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="379" Source="WebStrat_Automation" SourceLine="95" >
+<Disp><![CDATA[[ TextBoxPtIDMedRec ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T122">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxAdmitDate ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/1/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:13]]></Time>
+<TimeTick>1523420953</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="382" Source="WebStrat_Automation" SourceLine="97" >
+<Disp><![CDATA[[ TextBoxAdmitDate ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T123">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxDischDate ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/1/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:14]]></Time>
+<TimeTick>1523420954</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="385" Source="WebStrat_Automation" SourceLine="98" >
+<Disp><![CDATA[[ TextBoxDischDate ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T124">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxSex ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["M"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:15]]></Time>
+<TimeTick>1523420955</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="388" Source="WebStrat_Automation" SourceLine="101" >
+<Disp><![CDATA[[ TextBoxSex ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T125">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxBirth ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["01/01/1977"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:15]]></Time>
+<TimeTick>1523420955</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="391" Source="WebStrat_Automation" SourceLine="103" >
+<Disp><![CDATA[[ TextBoxBirth ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T126">
+<Obj plainTxt="False" ><![CDATA[[ txtDropDownDStat ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["01"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:16]]></Time>
+<TimeTick>1523420956</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="394" Source="WebStrat_Automation" SourceLine="105" >
+<Disp><![CDATA[[ txtDropDownDStat ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T127">
+<Obj plainTxt="False" ><![CDATA[[ WebEdit ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0131"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:16]]></Time>
+<TimeTick>1523420956</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="397" Source="WebStrat_Automation" SourceLine="107" >
+<Disp><![CDATA[[ WebEdit ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T128">
+<Obj plainTxt="False" ><![CDATA[[ TextBoxCoder ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["18Q2R1"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:16]]></Time>
+<TimeTick>1523420956</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="400" Source="WebStrat_Automation" SourceLine="110" >
+<Disp><![CDATA[[ TextBoxCoder ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T129">
+<Obj plainTxt="False" ><![CDATA[[ TabStrip1 ].Select]]></Obj>
+<Details plainTxt="False" ><![CDATA["Summary"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:22]]></Time>
+<TimeTick>1523420962</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="403" Source="WebStrat_Automation" SourceLine="116" >
+<Disp><![CDATA[[ TabStrip1 ].Select]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T130">
+<Obj plainTxt="False" ><![CDATA[[ TabStrip1 ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:22]]></Time>
+<TimeTick>1523420962</TimeTick>
+<NodeArgs eType="Replay" icon="8" nRep="406" Source="WebStrat_Automation" SourceLine="117" >
+<Disp><![CDATA[[ TabStrip1 ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T131">
+<Obj plainTxt="False" ><![CDATA[[ dx0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["B699"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:30]]></Time>
+<TimeTick>1523420970</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="409" Source="WebStrat_Automation" SourceLine="145" >
+<Disp><![CDATA[[ dx0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T132">
+<Obj plainTxt="False" ><![CDATA[[ Onset0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA[""]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:31]]></Time>
+<TimeTick>1523420971</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="412" Source="WebStrat_Automation" SourceLine="146" >
+<Disp><![CDATA[[ Onset0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T133">
+<Obj plainTxt="False" ><![CDATA[[ rev0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["0360"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:31]]></Time>
+<TimeTick>1523420971</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="415" Source="WebStrat_Automation" SourceLine="149" >
+<Disp><![CDATA[[ rev0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T134">
+<Obj plainTxt="False" ><![CDATA[[ hcpcs0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["36522"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:32]]></Time>
+<TimeTick>1523420972</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="418" Source="WebStrat_Automation" SourceLine="151" >
+<Disp><![CDATA[[ hcpcs0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T135">
+<Obj plainTxt="False" ><![CDATA[[ Units0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["1"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:34]]></Time>
+<TimeTick>1523420974</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="421" Source="WebStrat_Automation" SourceLine="154" >
+<Disp><![CDATA[[ Units0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T136">
+<Obj plainTxt="False" ><![CDATA[[ date0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/01/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:35]]></Time>
+<TimeTick>1523420975</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="424" Source="WebStrat_Automation" SourceLine="156" >
+<Disp><![CDATA[[ date0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T137">
+<Obj plainTxt="False" ><![CDATA[[ charges0 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["50000"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:37]]></Time>
+<TimeTick>1523420977</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="427" Source="WebStrat_Automation" SourceLine="158" >
+<Disp><![CDATA[[ charges0 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T138">
+<Obj plainTxt="False" ><![CDATA[[ rev1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA[""]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:38]]></Time>
+<TimeTick>1523420978</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="430" Source="WebStrat_Automation" SourceLine="161" >
+<Disp><![CDATA[[ rev1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T139">
+<Obj plainTxt="False" ><![CDATA[[ hcpcs1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA[""]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:38]]></Time>
+<TimeTick>1523420978</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="433" Source="WebStrat_Automation" SourceLine="163" >
+<Disp><![CDATA[[ hcpcs1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T140">
+<Obj plainTxt="False" ><![CDATA[[ Units1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA[""]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:38]]></Time>
+<TimeTick>1523420978</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="436" Source="WebStrat_Automation" SourceLine="166" >
+<Disp><![CDATA[[ Units1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T141">
+<Obj plainTxt="False" ><![CDATA[[ date1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA["04/01/2018"]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:38]]></Time>
+<TimeTick>1523420978</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="439" Source="WebStrat_Automation" SourceLine="168" >
+<Disp><![CDATA[[ date1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T142">
+<Obj plainTxt="False" ><![CDATA[[ charges1 ].Set]]></Obj>
+<Details plainTxt="False" ><![CDATA[""]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:39]]></Time>
+<TimeTick>1523420979</TimeTick>
+<NodeArgs eType="Replay" icon="6" nRep="442" Source="WebStrat_Automation" SourceLine="170" >
+<Disp><![CDATA[[ charges1 ].Set]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T143">
+<Obj plainTxt="False" ><![CDATA[[ Functions ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:41]]></Time>
+<TimeTick>1523420981</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="445" Source="WebStrat_Automation" SourceLine="178" >
+<Disp><![CDATA[[ Functions ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="13" nRep="360" Source="WebStrat_Automation" SourceLine="300" >
+<Disp><![CDATA[VBScript]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T144">
+<Obj plainTxt="False" ><![CDATA[Web.Strat]]></Obj>
+<Details plainTxt="False" ><![CDATA[Page]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:41]]></Time>
+<TimeTick>1523420981</TimeTick>
+<Step rID="T145">
+<Obj plainTxt="False" ><![CDATA[Group and Price (Ctrl+G).Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 9:59:41]]></Time>
+<TimeTick>1523420981</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="449" Source="WebStrat_Automation" SourceLine="183" >
+<Disp><![CDATA[Group and Price (Ctrl+G).Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T146">
+<Obj plainTxt="False" ><![CDATA[[ Table1 ].GetCellData]]></Obj>
+<Details plainTxt="False" ><![CDATA[3, 8]]></Details>
+<Time><![CDATA[4/11/2018 - 10:00:03]]></Time>
+<TimeTick>1523421003</TimeTick>
+<NodeArgs eType="Replay" icon="12" nRep="464" Source="WebStrat_Automation" SourceLine="229" >
+<Disp><![CDATA[[ Table1 ].GetCellData]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T147">
+<Obj plainTxt="False" ><![CDATA[[ File ].Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 10:00:04]]></Time>
+<TimeTick>1523421004</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="467" Source="WebStrat_Automation" SourceLine="296" >
+<Disp><![CDATA[[ File ].Click]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T148">
+<Obj plainTxt="False" ><![CDATA[New (Alt+N).Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 10:00:04]]></Time>
+<TimeTick>1523421004</TimeTick>
+<NodeArgs eType="Replay" icon="9" nRep="470" Source="WebStrat_Automation" SourceLine="297" >
+<Disp><![CDATA[New (Alt+N).Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="11" nRep="448" Source="WebStrat_Automation" SourceLine="183" >
+<Disp><![CDATA[Web.Strat]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T149">
+<Obj plainTxt="False" ><![CDATA[VBScript]]></Obj>
+<Details plainTxt="False" ><![CDATA[Dialog]]></Details>
+<Time><![CDATA[4/11/2018 - 10:00:07]]></Time>
+<TimeTick>1523421007</TimeTick>
+<Step rID="T150">
+<Obj plainTxt="False" ><![CDATA[Yes.Click]]></Obj>
+<Details plainTxt="False" ><![CDATA[]]></Details>
+<Time><![CDATA[4/11/2018 - 10:00:07]]></Time>
+<TimeTick>1523421007</TimeTick>
+<NodeArgs eType="Replay" icon="14" nRep="474" Source="WebStrat_Automation" SourceLine="300" >
+<Disp><![CDATA[Yes.Click]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="13" nRep="473" Source="WebStrat_Automation" SourceLine="300" >
+<Disp><![CDATA[VBScript]]></Disp>
+</NodeArgs>
+</Step>
+<NodeArgs eType="Context" icon="10" nRep="108" Source="WebStrat_Automation" SourceLine="183" >
+<Disp><![CDATA[Web.Strat]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="4/11/2018 - 9:54:39" eTime="4/11/2018 - 10:00:08" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="4" nRep="7" status="Passed" >
+<Disp><![CDATA[WebStrat_Automation Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="6" status="Passed" >
+<Disp><![CDATA[WebStratApplication Iteration 1 (Row 1)]]></Disp>
+</NodeArgs>
+</DIter>
+<Summary sTime="4/11/2018 - 9:54:38" eTime="4/11/2018 - 10:00:08" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="3" status="Passed" >
+<Disp><![CDATA[Test WebStratApplication Summary]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>

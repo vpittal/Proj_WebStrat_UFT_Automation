@@ -1,0 +1,14 @@
+Process Steps:
+-------------------------------------------------
+1.Create Folder Structure to store and organize Automation Resources.
+2.Create Automation Resources and store into corresponding folders.
+3.create organizer file (Excel file)
+  (provides instructions to Driver script, using organizer we can control
+  the execution process)
+4.create Driver script (UFT Test)
+   (All Resources can be associated with driver script
+  (It executes tests one by one and export test result based on organizer instructions)
+5.Create Initilization Script (.vbs file)
+  (It launches UFT tool,calls Driver script and it closes UFT tool.)
+
+------------------------------------------------------------------------------------

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>A general error occurred while importing sheet 3 from file C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx to sheet 2.</Name>
+    <ErrorText>A general error occurred while importing sheet 3 from file C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx to sheet 2.</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Login.qfl&lt;BR/&gt;Line (11): &amp;quot;dataTable.importsheet &amp;quot;C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx&amp;quot;,2,3&amp;quot;.</Description>
+    <StartTime>2018-03-23 21:44:17</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>FuncLibExecutableUnitName</ModuleName>
+          <FileName>C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Login.qfl</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>WT_Login</FunctionName>
+          <Scripts>dataTable.importsheet "C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx",2,3</Scripts>
+          <LineNo>11</LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript global code</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>WT_Login</Scripts>
+          <LineNo>2</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>5c998908ad374f9d9c6f4aeb41c4f738</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>A general error occurred while importing sheet 3 from file C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx to sheet 2.</Name>
+    <ErrorText>A general error occurred while importing sheet 3 from file C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx to sheet 2.</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Login.qfl&lt;BR/&gt;Line (11): &amp;quot;dataTable.importsheet &amp;quot;C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx&amp;quot;,2,3&amp;quot;.</Description>
+    <StartTime>2018-03-23 21:44:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>FuncLibExecutableUnitName</ModuleName>
+          <FileName>C:\Proj_WebStrat_UFT_Automation\FunctionalLibrary\WT_Login.qfl</FileName>
+          <Language>FuncLibExecutableUnitName</Language>
+          <FunctionName>WT_Login</FunctionName>
+          <Scripts>dataTable.importsheet "C:\Proj_WebStrat_UFT_Automation\TestData\WebStratSearchData.xlsx",2,3</Scripts>
+          <LineNo>11</LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript global code</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>WT_Login</Scripts>
+          <LineNo>2</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>5c998908ad374f9d9c6f4aeb41c4f738</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2018-03-23 21:44:17</StartTime>
+    <Duration>16</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>f45be0c84e2f4c88ab5c574d6fa8e21d</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-03-23 21:44:17</StartTime>
+    <Duration>16</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>dc0533f13ba7481b9b3dd031e5be5ad1</IconKey>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.51</ToolVersion>
+    <Description />
+    <StartTime>2018-03-23 21:44:09</StartTime>
+    <Duration>24</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>a395f317cd76410d948d729ce6a97c30</IconKey>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>MS\vpittal</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8089</TotalMemory>
+      <HostName>ms.ds.uhc.com\LH7U05CG5170952</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2018-03-23 21:44:09</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.51</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

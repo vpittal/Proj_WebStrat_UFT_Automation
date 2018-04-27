@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "iexplore.exe",1</Name>
+    <Description>SystemUtil.Run "iexplore.exe",1</Description>
+    <StartTime>2018-03-26 11:20:21</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>e42018af6f7f451083bdff7a05d0942d</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxUserId ].Set</Name>
+    <Description>"ERC_WSD"</Description>
+    <StartTime>2018-03-26 11:20:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxUserId ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["ERC_WSD"]]></OperationData>
+      </TestObject>
+      <IconKey>18363e3b7d7d440ab26113deacd0b74c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ TextBoxPassword ].Set</Name>
+    <Description>"hss_PATDB"</Description>
+    <StartTime>2018-03-26 11:20:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ TextBoxPassword ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["hss_PATDB"]]></OperationData>
+      </TestObject>
+      <IconKey>18363e3b7d7d440ab26113deacd0b74c</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Login ].Click</Name>
+    <Description />
+    <StartTime>2018-03-26 11:20:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Web.Strat Login ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Login ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>05db1572a0364816bd2d925f51761edb</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Page ].Exist</Name>
+    <Description>"Object does not exist"</Description>
+    <StartTime>2018-03-26 11:20:42</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Browser ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object does not exist"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Page]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8c367c479c6f4484a68607b1843bf494</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object doesn't support this property or method: 'Browser(...).page(...).WbfTabStrip'</Name>
+    <ErrorText>Object doesn't support this property or method: 'Browser(...).page(...).WbfTabStrip'</ErrorText>
+    <Description>&lt;BR/&gt;Line (13): &amp;quot;Browser(&amp;quot;name:=Web.Strat&amp;quot;).page(&amp;quot;title:=Web.Strat&amp;quot;).WbfTabStrip(&amp;quot;html id:=TabStrip1&amp;quot;,&amp;quot;html tag:=TabStrip&amp;quot;,&amp;quot;logical name=TabStrip1&amp;quot;,&amp;quot;x:=2&amp;quot;,&amp;quot;width:=717&amp;quot;).Select &amp;quot;Search&amp;quot;&amp;quot;.</Description>
+    <StartTime>2018-03-26 11:20:47</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","logical name=TabStrip1","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>13</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<BR/>Line (13): &quot;Browser(&quot;name:=Web.Strat&quot;).page(&quot;title:=Web.Strat&quot;).WbfTabStrip(&quot;html id:=TabStrip1&quot;,&quot;html tag:=TabStrip&quot;,&quot;logical name=TabStrip1&quot;,&quot;x:=2&quot;,&quot;width:=717&quot;).Select &quot;Search&quot;&quot;.]]></OperationData>
+      </TestObject>
+      <IconKey>b081566a37944431863c91f589ab6064</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\266c4906-fa2d-4627-b6a6-f82b987101dd.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Object doesn't support this property or method: 'Browser(...).page(...).WbfTabStrip'</Name>
+    <ErrorText>Object doesn't support this property or method: 'Browser(...).page(...).WbfTabStrip'</ErrorText>
+    <Description>&lt;BR/&gt;Line (13): &amp;quot;Browser(&amp;quot;name:=Web.Strat&amp;quot;).page(&amp;quot;title:=Web.Strat&amp;quot;).WbfTabStrip(&amp;quot;html id:=TabStrip1&amp;quot;,&amp;quot;html tag:=TabStrip&amp;quot;,&amp;quot;logical name=TabStrip1&amp;quot;,&amp;quot;x:=2&amp;quot;,&amp;quot;width:=717&amp;quot;).Select &amp;quot;Search&amp;quot;&amp;quot;.</Description>
+    <StartTime>2018-03-26 11:21:08</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>Browser("name:=Web.Strat").page("title:=Web.Strat").WbfTabStrip("html id:=TabStrip1","html tag:=TabStrip","logical name=TabStrip1","x:=2","width:=717").Select "Search"</Scripts>
+          <LineNo>13</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Web.Strat ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<BR/>Line (13): &quot;Browser(&quot;name:=Web.Strat&quot;).page(&quot;title:=Web.Strat&quot;).WbfTabStrip(&quot;html id:=TabStrip1&quot;,&quot;html tag:=TabStrip&quot;,&quot;logical name=TabStrip1&quot;,&quot;x:=2&quot;,&quot;width:=717&quot;).Select &quot;Search&quot;&quot;.]]></OperationData>
+      </TestObject>
+      <IconKey>b081566a37944431863c91f589ab6064</IconKey>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a7f007e0-bbbd-41ec-8175-337f67f6671b.png" highlight="0,105,1366,623" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2018-03-26 11:20:19</StartTime>
+    <Duration>56</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>cf30e37a33754e438e49ac4f182981aa</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-03-26 11:20:19</StartTime>
+    <Duration>56</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>de3d99da87ec4a1fb9a279a01f8f05f7</IconKey>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.51</ToolVersion>
+    <Description />
+    <StartTime>2018-03-26 11:20:18</StartTime>
+    <Duration>57</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>0a38465e4e0c4f4a921c4fa8c55aa9f4</IconKey>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>MS\vpittal</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8089</TotalMemory>
+      <HostName>ms.ds.uhc.com\LH7U05CG5170952</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res10</ResultName>
+    <RunStartTime>2018-03-26 11:20:18</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.51</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
